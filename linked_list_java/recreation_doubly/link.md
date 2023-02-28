@@ -18,7 +18,9 @@ The attribute of this class should be a node header, a node trailer and a size.
 
 The constructor for this class will create the header with only null or empty value, same for trailer. It will also use one of the setters we initialized (setNext) to link the header to the trailer.
 
-After that we can initialize the getSize method which will return the size of the Linked List. The the isEmpty() method that check if the size is 0 or not. Then the first methiod which returns the value of the first node (header.getNext().getValue())
+After that we can initialize the getSize method which will return the size of the Linked List. The the isEmpty() method that check if the size is 0 or not. 
+
+Then the first methiod which is getFirst() which returns the value of the first node (header.getNext().getValue())
 
 We do the same with the last node (trailer.getPrev().getValue())
 

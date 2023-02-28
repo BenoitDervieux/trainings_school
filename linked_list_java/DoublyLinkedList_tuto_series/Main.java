@@ -17,11 +17,10 @@ public class Main {
 
         dll.printList(); 
 
-        dll.removeFirst();
-        dll.removeFirst();
-        dll.removeFirst();
-        dll.removeFirst();
-        dll.removeFirst();
+        dll.removeLast();
+
+        dll.printList(); 
+
         
     }
     
